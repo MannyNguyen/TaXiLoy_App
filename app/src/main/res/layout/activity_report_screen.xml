@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/statusBar"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/colorPrimary"></FrameLayout>
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:focusable="false"
+                    android:text="@string/report"
+                    android:textColor="@color/white_dark"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txt_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/phone_report" />
+
+            <EditText
+                android:id="@+id/edt_phone"
+                android:layout_width="match_parent"
+                android:inputType="number"
+                android:layout_height="@dimen/height_text_box"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="12dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:background="@drawable/black_border_box" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_miss_phonenumber"
+                android:text="@string/miss_phone_number"
+                android:textColor="@color/pinkLight"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/name_report" />
+
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_text_box"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="12dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:background="@drawable/black_border_box" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_miss_personname"
+                android:text="@string/miss_person_name"
+                android:textColor="@color/pinkLight"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txt_ride_code"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/code_ride" />
+
+            <EditText
+                android:id="@+id/edt_code"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_text_box"
+                android:layout_marginLeft="10dp"
+                android:paddingLeft="12dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:background="@drawable/black_border_box" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_missridecode"
+                android:text="@string/miss_ride_code"
+                android:textColor="@color/pinkLight"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/txt_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="15dp"
+                android:text="@string/content_report" />
+
+            <EditText
+                android:id="@+id/edt_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:paddingTop="3dp"
+                android:paddingLeft="12dp"
+                android:paddingBottom="20dp"
+                android:gravity="left|top"
+                android:background="@drawable/black_border_box" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_miss_content"
+                android:text="@string/miss_content"
+                android:textColor="@color/pinkLight"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/btn_report_send"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/height_text_box"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/yellow_solid_box"
+                android:text="@string/send"
+                android:textAllCaps="false"
+                android:textColor="@color/white_dark"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

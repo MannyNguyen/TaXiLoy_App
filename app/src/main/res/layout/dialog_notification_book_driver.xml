@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/black_border_box"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/ic_success"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/icon_success"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_booked"
+            android:layout_below="@+id/ic_success"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/size_text_error"
+            android:text="@string/notification_booked"
+            android:textColor="@color/yellowDark"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_driver_content"
+            android:layout_below="@+id/txt_booked"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="@string/notification_book_driver"
+            android:textSize="@dimen/size_text_error"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_cancel_ride"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/txt_driver_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/yellow_solid_box"
+            android:text="@string/cancel_ride"
+            android:textAllCaps="false"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/notify_call"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/btn_cancel_ride"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/yellow_border_box"
+            android:text="@string/notification_call"
+            android:textAllCaps="false"
+            android:textColor="@color/yellowDark" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="?android:attr/borderlessButtonStyle"
+            android:id="@+id/notify_sms"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/notify_call"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/yellow_border_box"
+            android:text="@string/notification_sms"
+            android:textAllCaps="false"
+            android:textColor="@color/yellowDark"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

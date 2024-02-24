@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">TaxiLoy</string>
+    <string name="sender_id">475219842129</string>
+    <string name="action_settings">Settings</string>
+    <string name="confirm">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="call">Call</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="send">Send</string>
+    <string name="next">Next</string>
+    <string name="back">Back</string>
+    <string name="submit">Submit</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="pickup">Pick up?</string>
+    <string name="got_it">Got it</string>
+    <string name="support">Support</string>
+    <string name="rating">Rating</string>
+    <string name="driver_busy">Sorry, this driver is busy. Please choose another driver.</string>
+    <string name="no_driver_shake">It seems that there is no car near you.</string>
+    <!--login page-->
+    <string name="main_text_login">Please enter your phone number\n with format +855 12xxxxxxx</string>
+    <string name="phone_num">Phone number</string>
+    <string name="error_fill_up">Information is not filled up or incorrect</string>
+    <string name="user_name">Your name</string>
+    <string name="user_gender">Gender</string>
+    <string name="user_type">I am :</string>
+    <string name="passenger">Passenger</string>
+    <string name="driver">Driver</string>
+    <string name="welcome">Welcome!</string>
+    <string name="search_for_driver">Search for driver</string>
+
+    <!--confirm code sms-->
+    <string name="title_code_sms">Login with SMS</string>
+    <string name="enter_code">Enter the code from the SMS we are sending you here</string>
+    
+    <!--driver info dialog-->
+    <string name="distance">Distance: </string>
+    <string name="plate_number">Plate Number: </string>
+    <string name="brand_info">Brand: </string>
+    <string name="model_info">Model: </string>
+    <string name="company">Company: </string>
+    <string name="seat">Seats: </string>
+    <string name="transportation_type">Transportation Type: </string>
+
+    <!--sliding menu-->
+    <string name="account_profile">Account Profile</string>
+    <string name="inbox">Inbox</string>
+    <string name="booking_history">Booking History</string>
+    <string name="suggest_place">Suggested Places</string>
+    <string name="report">Report</string>
+    <string name="support_n_feedback">Support and feedback</string>
+    <string name="share_n_rate">Share and rating</string>
+    <string name="share">Use TaxiLoy and share with friends to get points and gifts.</string>
+
+    <!--dialog-->
+    <string name="message">Message</string>
+    <string name="error">Error</string>
+    <string name="please_wait">Please Wait</string>
+    <string name="logging_in_message">Logging in…</string>
+
+    <!--slide_driver-->
+    <string name="check_box">Ready for new customer</string>
+    <string name="slider_text_1">Please be patient. New ride will come soon.</string>
+    <string name="slider_text_2">Please call your customer to confirm the ride. If you don\'t all your customer within 15s, the ride will be passed to other driver.</string>
+    <string name="slider_text_3">When the customer(s) sits in your car, please tap \"Pick up?\" button. Important: Don\'t tap \"Pick up\" until a customer sits in your car.</string>
+    <string name="slider_text_4">When arriving the destination, please tab \"Finished?\" </string>
+    <string name="balance">Balance: 0$</string>
+    <string name="point">Point(s): 0</string>
+
+    <!--passenger profile-->
+    <string name="phone">Phone</string>
+    <string name="birthday">Birthday</string>
+    <string name="gender">Gender</string>
+    <string name="email">Email</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile">Profile</string>
+
+    <!--dialog notification book driver-->
+    <string name="notification_book_driver">You have a ride.\n Please wait a few minutes.Our driver will contact and will get you soon.</string>
+    <string name="notification_booked">Booked</string>
+    <string name="cancel_ride">Cancel your ride</string>
+    <string name="notification_call">Call</string>
+    <string name="notification_sms">Send SMS</string>
+
+    <!--notification -->
+    <string name="finish">Finish</string>
+    <string name="note_finish"> You have arrived the destination?\n Tap \"Yes\" to let other new customers know you\'re free to book. Tap \"No\" when the current customer is still in your car.</string>
+    <string name="note_cancel"> Uh-ooh, sorry to know that you\'re canceled this ride.\n Are you sure you want to cancel your ride?</string>
+    <string name="congratulation">Congratulations!</string>
+    <string name="new_passenger">Please call your customer to confirm the ride.\n If you don\'t call your customer within 15s, the ride will be passed to other driver.</string>
+    <string name="send_sms">Send SMS!</string>
+    <string name="a_new_ride">A new ride comes</string>
+    <string name="confirm_cancel_ride">Sorry, the passenger has just canceled your ride.\n You can call him or her to confirm.</string>
+    <string name="confirm_finally">The customers is finally in your car?</string>
+    <string name="add_onw_plus">You took the passenger to the destination safe and sound. One point has been added to your account.</string>
+    <string name="plus_one">+1</string>
+    <string name="call_ur_passenger">Call your passenger</string>
+
+    <!--report-->
+    <string name="phone_report">The reported person\'s phone number</string>
+    <string name="name_report">The reported person\'s name</string>
+    <string name="code_ride">Your ride code</string>
+    <string name="content_report">Content</string>
+    <string name="miss_phone_number">Please enter phone number</string>
+    <string name="miss_person_name">Please enter person\'s name</string>
+    <string name="miss_ride_code">Please enter ride code</string>
+    <string name="miss_content">Please enter content</string>
+
+    <!--support-->
+    <string name="support_call">Call customer support</string>
+    <string name="miss_title">Please enter title</string>
+    <string name="success">Success!</string>
+    <string name="check_wifi">Sorry! Cannot send this message, please check your data connection!</string>
+    <string name="toast_call">Sorry! Cannot make calls, please check your device!</string>
+    <string name="title">Title</string>
+    <!--vote driver-->
+    <string name="vote_driver">The driver has just finished the ride. If you want a new ride, please shake the phone or pick other nearby drivers. Don\'t forget to rate our driver service and get 1 point for your account.</string>
+    <string name="vote_for_driver">Vote  for driver</string>
+    <!--history-->
+    <string name="filter_n_search">Filter &amp; Search</string>
+    <string name="date">Date</string>
+    <string name="driver_name">Driver name</string>
+    <string name="passenger_name">Passenger name</string>
+    <string name="apply_filter">Apply Filters</string>
+    <string name="result">Results : </string>
+    <!--register-->
+    <string name="status">Status: </string>
+    <string name="personal">Personal</string>
+    <string name="car">Car</string>
+    <string name="license">Driving license</string>
+    <string name="id_card">ID card</string>
+    <string name="brand">Brand</string>
+    <string name="model">Model</string>
+    <string name="plate_num">Plate Number</string>
+    <string name="seats">Seats</string>
+    <string name="production_year">Production year</string>
+    <string name="organization_individual">Organization or Individual</string>
+    <string name="organization">Organization</string>
+    <string name="individual">Individual</string>
+    <string name="transportation">Transportation</string>
+    <string name="error_capture_pic">Please capture the pictures</string>
+    <!--sliding menu right-->
+    <string name="type">Type</string>
+    <string name="type_car">Type: </string>
+    <string name="brand_car">Brand: </string>
+    <string name="title_sliding_menu">The drivers are waiting for you</string>
+    <string name="seat_car">Seats: </string>
+    <!--detail history-->
+    <string name="transac_history">Transaction history</string>
+    <string name="status_detail">Status</string>
+    <string name="id">ID</string>
+    <string name="location">Location</string>
+    <string name="title_detail_history_cancel">It\'s a pity, the ride was canceled. Hope you have a good time with your booking</string>
+    <!--error-->
+    <string name="error_fill_6">Please input 6 digits from SMS</string>
+    <!--popup window map-->
+    <string name="book_ur_ride">Book your ride</string>
+    <string name="tap_pickup">Please tap pick up</string>
+    <string name="note_pickup">Don\'t tap \"Pick up?\" until a customer sits in your car your account balance will be deducted.</string>
+    <string name="congratulation_driver">Congratulations! A new ride comes.</string>
+    <string name="call_customer">Please call your customer to confirm the ride. if you don\'t call your customer within 15s, the ride will be pass to other driver.</string>
+
+    <string name="please_tap_finish">Please tab \"Finish?\" when you take your passenger to their destinations.</string>
+    <string name="book_fail">Cannot book ride</string>
+    <string name="rating_fail">Cannot rate the driver</string>
+    <string name="book_fail_detail">Sorry! This driver are busy, please try again later.</string>
+    <string name="coming_soon">Coming soon</string>
+    <string name="sharing">Sharing</string>
+    <string name="language">Language</string>
+    <string name="text_sharing">Use TaxiLoy and share with friends to get points and gifts</string>
+    <string name="rate_us">Rate us</string>
+
+    <string name="please_contact">Please contact us to update and approve your status.</string>
+
+
+</resources>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TaxiLoy</string>
+    <string name="sender_id">475219842129</string>
+    <string name="action_settings">ការកំណត់</string>
+    <string name="confirm">បញ្ចាក</string>
+    <string name="cancel">បោះបង់</string>
+    <string name="ok">យល់ព្រម</string>
+    <string name="call">ហៅទូរស័ព្ទ</string>
+    <string name="yes">បាទ</string>
+    <string name="no">ទេ</string>
+    <string name="send">ផ្ញើរ</string>
+    <string name="next">បន្ទាប់</string>
+    <string name="back">ត្រលប់ក្រោយ</string>
+    <string name="submit">បញ្ជូន</string>
+    <string name="save">រក្សាទុក</string>
+    <string name="edit">កែសម្រួល</string>
+    <string name="update">Update</string>
+    <string name="pickup">ទទួលអតិថិជន</string>
+    <string name="got_it">Got it</string>
+    <string name="support">ជំនួយ</string>
+    <string name="rating">ចំណាត់ថ្នាក់</string>
+    <string name="driver_busy">អ្នកអាចកក់តែរថយន្តបន្ទាប់ក្រោយពីការជិះនេះត្រូវបានបញ្ចប់!</string>
+    <!--login page-->
+    <string name="main_text_login">សូមបញ្ចូលទូរស័ព្ទរបស់អ្នកលេខ \ n ជាមួយនឹងទ្រង់ទ្រាយលេខ +855 12xxxxxxx</string>
+    <string name="phone_num">លេខទូរស័ព្ទ</string>
+    <string name="error_fill_up">ពត៍មានមិនទាន់បំពេញ រឺ មិនត្រឹមត្រូវ</string>
+    <string name="user_name">ឈ្មោះ​របស់​អ្នក</string>
+    <string name="user_gender">ភេទ</string>
+    <string name="user_type">ខ្ញុំ​ជា:</string>
+    <string name="passenger">អ្នកដំណើរ</string>
+    <string name="driver">អ្នកបេីកបរ</string>
+    <string name="welcome">សូមស្វាគមន៍!</string>
+
+    <!--confirm code sms-->
+    <string name="title_code_sms">Login SMS</string>
+    <string name="enter_code">បញ្ចូលលេខកូដSMS</string>
+
+    <!--driver info dialog-->
+    <string name="distance">ចម្ងាយ: </string>
+    <string name="plate_number">ស្លាកលេខ:</string>
+    <string name="brand_info">ម៉ាក:</string>
+    <string name="model_info">ប្រភេទ:</string>
+    <string name="company">ក្រុមហ៊ុន: </string>
+    <string name="seat">កៅអី: </string>
+    <string name="transportation_type">ការដឹកជញ្ជូន ប្រភេទ: </string>
+
+    <!--sliding menu-->
+    <string name="account_profile">ប្រវត្តិគណនី</string>
+    <string name="inbox">ប្រអប់ទទួលសារ</string>
+    <string name="booking_history">ប្រតិបត្រ័ការកក់តាក់សុី</string>
+    <string name="suggest_place">កន្លែងដែលបានស្នើ</string>
+    <string name="report">រាយការណ៍</string>
+    <string name="support_n_feedback">ផ្តល់យោបល់</string>
+    <string name="share_n_rate">ចែករំលែក និង អញ្ជើញ</string>
+    <string name="share">ប្រេីTaxiLoy សូមជួយ Share តាម Facebook ដេីម្បីទទួលបានពិន្ទុប្តូរយករង្វាន់</string>
+
+    <!--dialog-->
+    <string name="message">សារ</string>
+    <string name="error">មានកំហុស</string>
+    <string name="please_wait">សូម​រង់ចាំ</string>
+    <string name="logging_in_message">កំពុងបញ្ចូលគណនីយ...</string>
+
+    <!--slide_driver-->
+    <string name="check_box">ត្រៀមខ្លួនរួចរាល់ហើយសម្រាប់អតិថិជនថ្មី;</string>
+    <string name="slider_text_1">សូម​រង់ចាំ តាក់សុីនឹងមកដល់ឆាប់ៗនេះ</string>
+    <string name="slider_text_2">សូមទូរស៏ព្ទទៅអតិជនជាបន្ទាន់! ផុត១៥វិនាទី ត្រូវបានបេាះដៃអោយអ្នកបេីកផ្សេងទៀត។</string>
+    <string name="slider_text_3">នៅពេលដែលអតិថិជនស្ថិតក្នុងរថយន្តរបស់អ្នក,សូមចុចប៊ូតុង\"ទទួលបាន\"។ចំនាំ:សូមកុំចុច\"ទទួលបាន\"រហូតដល់អតិថិជនស្ថិតក្នុងរថយន្តរបស់អ្នក។</string>
+    <string name="slider_text_4">នៅពេលបានមកដល់គោលដៅនេះសូមចុច\"បញ្ចប់?\"</string>
+    <string name="balance">តុល្យភាព: 0 $</string>
+    <string name="point">ពិន្ទុ: 0</string>
+
+    <!--passenger profile-->
+    <string name="phone">ទូរស័ព្ទ</string>
+    <string name="birthday">ថ្ងៃកំណើត</string>
+    <string name="gender">ភេទ</string>
+    <string name="email">អ៊ីម៉ែល</string>
+    <string name="edit_profile">កែប្រវត្តិគណនីយ</string>
+    <string name="profile">ប្រវត្តិគណនី</string>
+
+    <!--dialog notification book driver-->
+    <string name="notification_book_driver">អ្នកបានកក់តាក់សុី។ សូមរង់ចាំ! អ្នកបេីកតាក់សុីនឹងទូរស័ព្ទទាក់ទងអ្នកឆាប់ៗនេះ។</string>
+    <string name="notification_booked">កក់ទុករួច</string>
+    <string name="cancel_ride">បោះបង់ការជិះរបស់អ្នក</string>
+    <string name="notification_call">ហៅ</string>
+    <string name="notification_sms">ផ្ញើសារSMS</string>
+
+    <!--notification -->
+    <string name="finish">បញ្ចប់</string>
+    <string name="note_finish">អ្នកបានមកដល់គោលដៅឬនៅ?\ចុច\"បាទ\"ដើម្បីអនុញ្ញាតឱ្យអតិថិជនថ្មីផ្សេងទៀតដែលបានដឹងថាអ្នក\'ទំនេរ។ចុច\"ទេ\"នៅពេលអតិថិជនកំពុងជិះនៅក្នុងរថយន្តរបស់អ្នក។</string>
+    <string name="congratulation">សូមអបអរសាទរ!</string>
+    <string name="new_passenger">សូមទូរស៏ព្ទអតិជនជាបន្ទាន់! ផុត១៥វិនាទី ត្រូវបានបេាះដៃអោយអ្នកបេីកផ្សេងទៀត។</string>
+    <string name="send_sms">ផ្ញើសារ!</string>
+    <string name="a_new_ride">ការជិះថ្មីបានភ្ជាប់មក</string>
+    <string name="confirm_cancel_ride">សូមអភ័យទោសអ្នកដំណើរបានលុបចោលការជិះរបស់អ្នក។\nអ្នកអាចហៅគាត់ឬនាងដើម្បីបញ្ជាក់។</string>
+    <string name="confirm_finally">អតិថិជនទីបំផុតនៅក្នុងរថយន្តរបស់អ្នក?</string>
+    <string name="add_onw_plus">អ្នកបានជូនអ្នកដំណើរទៅកាន់គោលដៅដេាយសុវត្ថិភាព។ ទទួលបានមួយពន្ទុបន្ថែមទៅគណនីរបស់អ្នក។</string>
+    <string name="plus_one">+1</string>
+    <string name="call_ur_passenger">ហៅទូរស័ព្ទអ្នកដំណើររបស់អ្នក</string>
+
+    <!--report-->
+    <string name="phone_report">លេខទូរស័ព្ទមនុស្សដែលយេីងចង់រាយការណ៍\</string>
+    <string name="name_report">បានរាយការណ៍ឈ្មោះរបស់មនុស្ស\'sបាន</string>
+    <string name="code_ride">លេខកូដជិះរបស់អ្នក</string>
+    <string name="content_report">មាតិកា</string>
+    <string name="miss_phone_number">សូមបញ្ចូលលេខទូរស័ព្ទ</string>
+    <string name="miss_person_name">សូមបញ្ចូលឈ្មោះរបស់មនុស្សដែលចង់រាយការណ៍</string>
+    <string name="miss_ride_code">សូមបញ្ចូលលេខកូដជិះ</string>
+    <string name="miss_content">សូមបញ្ចូលមាតិកា</string>
+
+    <!--support-->
+    <string name="support_call">ទូរស័ព្ទទៅផ្នែកបំរេីអតិថិជន</string>
+    <string name="miss_title">សូមបញ្ចូលចំណងជើង</string>
+    <string name="success">ជោគជ័យ!</string>
+    <string name="check_wifi">សូមអភ័យទោស។ មិនអាចផ្ញើរសារនេះសូមពិនិត្យមើលការតភ្ជាប់ទិន្នន័យរបស់អ្នក។</string>
+    <string name="toast_call">សូមអភ័យទោស។ មិនអាចធ្វើការហៅនេះបានទេ​ សូមពិនិត្យមើលទូរស័ព្ទរបស់អ្នក។!</string>
+    <string name="title">ចំណងជើង</string>
+    <!--vote driver-->
+    <string name="vote_driver">អ្នកបានមកដល់គោលដៅ! បេីត្រូវការជិះទៀត សូមក្រវី រឺធ្វេីការកក់ម្ដងទៀត! សូមកុំភ្លេច វាយតំលែអោយអ្នកបេីកបរនឹងទទួលបាន១ពិន្ទុ។</string>
+    <string name="vote_for_driver">ការបោះឆ្នោតសម្រាប់កម្មវិធីបញ្ជា</string>
+    <!--history-->
+    <string name="filter_n_search">ស្វែងរក</string>
+    <string name="date">កាលបរិច្ឆេទ</string>
+    <string name="driver_name">ឈ្មោះអ្នកបេីកបរ</string>
+    <string name="passenger_name">ឈ្មោះអ្នកដំណើរ</string>
+    <string name="apply_filter">អនុវត្តតម្រង</string>
+    <string name="result">លទ្ធផល: </string>
+    <!--register-->
+    <string name="status">ស្ថានភាព: </string>
+    <string name="personal">ផ្ទាល់ខ្លួន</string>
+    <string name="car">រថយន្ត</string>
+    <string name="license">ប័ណ្ណបើកបរ</string>
+    <string name="id_card">អត្តសញ្ញាណប័ណ្ណ</string>
+    <string name="brand">ម៉ាក</string>
+    <string name="model">ប្រភេទ</string>
+    <string name="plate_num">ស្លាកលេខ</string>
+    <string name="seats">កៅអី</string>
+    <string name="production_year">ឆ្នាំផលិត</string>
+    <string name="organization_individual">អង្គការ ឬ បុគ្គល</string>
+    <string name="organization">អង្គការ</string>
+    <string name="individual">បុគ្គល</string>
+    <string name="transportation">ការដឹកជញ្ជូន</string>
+    <string name="error_capture_pic">សូមចាប់យករូបភាព</string>
+    <!--sliding menu right-->
+    <string name="type">ប្រភេទ</string>
+    <string name="type_car">ប្រភេទ: </string>
+    <string name="brand_car">ម៉ាក: </string>
+    <string name="title_sliding_menu">អ្នកបើកតាក់សុីកំពុងរង់ចាំអ្នក។</string>
+    <string name="seat_car">កន្លែងអង្គុយ: </string>
+    <!--detail history-->
+    <string name="transac_history">ប្រវត្តិប្រតិបត្តិការ</string>
+    <string name="status_detail">ស្ថានភាព</string>
+    <string name="id">លេខសម្គាល់</string>
+    <string name="location">ទីតាំង</string>
+    <string name="title_detail_history_cancel">គួអោយសោកស្តាយ ការកក់ត្រូវបានបដិសេធ។ សូមព្យាយាមម្ដងទៀត!</string>
+    <!--error-->
+    <string name="error_fill_6">សូមបញ្ចូលលេខកូដ6ខ្ទង់ពីការផ្ញើរសារ!</string>
+    <!--popup window map-->
+    <string name="book_ur_ride">កក់តាក់សីុ</string>
+    <string name="tap_pickup">សូមចុច ប៊ូតុងទទួល</string>
+    <string name="note_pickup">កុំចុច\'\"ទទួល?\"ខណ:ភ្ញៀវនៅក្នុងឡាន ពុំនោះទេនឹងត្រូវបានដកប្រាក់ពីគណនីរបស់អ្នក។</string>
+    <string name="congratulation_driver">សូមអបអរសាទរ! អ្នកទទួលបានអតិជនថ្មី</string>
+    <string name="call_customer">សូមហៅអតិថិជនរបស់អ្នកដើម្បីបញ្ជាក់ពីការជិះ។ ផុត១៥វិនាទី ត្រូវបានបេាះដៃអោយអ្នកបេីកផ្សេងទៀត។ី</string>
+
+    <string name="please_tap_finish">សូមចុច\"បញ្ចប់?\"ពេលដែលជួនអ្នកដំណើរដល់ទិសដៅរបស់ពួកគេ។</string>
+    <string name="book_fail">ប្រហែលជាកម្មវិធីបញ្ជានេះមិនអាចប្រើបាននៅពេលនេះ។ សូមបញ្ជាកម្មវិធីបញ្ជាផ្សេងទៀត។</string>
+    <string name="rating_fail">Cannot rate the driver</string>
+    <string name="book_fail_detail">សូមអភ័យទោស! កម្មវិធីបញ្ជានេះគឺជាការរវល់សូមព្យាយាមម្ដងទៀតនៅពេលក្រោយ។</string>
+    <string name="coming_soon">ពេលឆាប់ខាងមុខ</string>
+    <string name="sharing">ចែករំលែក</string>
+    <string name="language">ភាសា</string>
+    <string name="search_for_driver">ការស្វែងរកសម្រាប់កម្មវិធីបញ្ជា</string>
+    <string name="text_sharing">ប្រើ TaxiLoy និងចែករំលែកជាមួយមិត្តភក្តិដើម្បីទទួលបានពិន្ទុនិងអំណោយ</string>
+    <string name="rate_us">អត្រាពួកយើង</string>
+
+    <string name="please_contact">សូមទាក់ទងមកយើងខ្ញុំដើម្បីធ្វើបច្ចុប្បន្នភាពនិងអនុម័តស្ថានភាពរបស់អ្នក។</string>
+</resources>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_dark"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/rl_field_brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/brand" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_field_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_car_model"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/model" />
+
+        <EditText
+            android:id="@+id/et_car_model"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_box"
+            android:layout_below="@+id/tv_car_model"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box" />
+
+        <ImageView
+            android:layout_width="@dimen/text_normal_size"
+            android:layout_height="@dimen/text_normal_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/et_car_model"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/icon_arrow_down" />
+
+        <ImageView
+            android:id="@+id/iv_model_one"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_car_model"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_model_two"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_car_model"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/iv_model_one"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_model_three"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_car_model"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/iv_model_two"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_model_four"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/iv_model_one"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_model_five"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/iv_model_one"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/iv_model_four"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_model_six"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/iv_model_one"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/iv_model_five"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_field_plate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_car_plate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/plate_num" />
+
+        <EditText
+            android:id="@+id/et_car_plate"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_box"
+            android:layout_below="@+id/tv_car_plate"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box" />
+
+        <ImageView
+            android:layout_width="@dimen/text_normal_size"
+            android:layout_height="@dimen/text_normal_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/et_car_plate"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/icon_arrow_down" />
+
+        <ImageView
+            android:id="@+id/iv_plate_one"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_car_plate"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_field_seats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/seats" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_field_production"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/production_year" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+
+        <TextView
+            android:id="@+id/tv_car_organization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/organization_individual" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_car_organization"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_organization"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/organization" />
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_option_organization"
+                    android:layout_width="@dimen/height_text_box"
+                    android:layout_height="@dimen/height_text_box"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tv_organization"
+                    android:background="@drawable/icon_option_ticker">
+
+                    <ImageView
+                        android:id="@+id/iv_ticker_organization"
+                        android:layout_width="@dimen/height_text_box"
+                        android:layout_height="@dimen/height_text_box"
+                        android:background="@drawable/icon_ticker" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_individual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/individual" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_option_individual"
+                    android:layout_width="@dimen/height_text_box"
+                    android:layout_height="@dimen/height_text_box"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tv_individual"
+                    android:background="@drawable/icon_option_ticker">
+
+                    <ImageView
+                        android:id="@+id/iv_ticker_individual"
+                        android:layout_width="@dimen/height_text_box"
+                        android:layout_height="@dimen/height_text_box"
+                        android:background="@drawable/icon_ticker" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_field_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_car_transportation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/transportation" />
+
+        <Spinner
+            android:id="@+id/spin_user_gender"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_box"
+            android:layout_below="@+id/tv_car_transportation"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box" />
+
+        <ImageView
+            android:layout_width="@dimen/text_normal_size"
+            android:layout_height="@dimen/text_normal_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/spin_user_gender"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/icon_arrow_down" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yellow_solid_box"
+        android:text="@string/submit"
+        android:textAllCaps="false"
+        android:textColor="@color/white_dark" />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yellow_border_box"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/yellowDark" />
+</LinearLayout>

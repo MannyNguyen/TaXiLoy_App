@@ -1,0 +1,81 @@
+{
+  "project_info": {
+    "project_id": "taxiloy-1208",
+    "project_number": "475219842129",
+    "name": "TaxiLoy"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475219842129:android:cbfc7626ef2f2fd6",
+        "client_id": "android:com.example.prosoft.taxiloy",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.example.prosoft.taxiloy",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-74381698-1"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 2,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475219842129:android:9310693825044e7f",
+        "client_id": "android:com.prosoft.taxiloy",
+        "client_type": 1,
+        "android_client_info": {
+          "package_name": "com.prosoft.taxiloy",
+          "certificate_hash": []
+        }
+      },
+      "oauth_client": [],
+      "api_key": [],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-74381698-4"
+          }
+        },
+        "cloud_messaging_service": {
+          "status": 1,
+          "apns_config": []
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "google_signin_service": {
+          "status": 1
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "client_info": [],
+  "ARTIFACT_VERSION": "1"
+}

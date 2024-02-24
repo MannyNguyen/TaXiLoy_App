@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:id="@+id/statusBar"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@color/colorPrimary" />
+
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:focusable="false">
+
+                <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:focusable="false"
+                    android:text="@string/profile"
+                    android:textColor="@color/white_dark"
+                    android:textSize="20dp" />
+            </RelativeLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.github.ksoichiro.android.observablescrollview.ObservableScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_top_banner"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:padding="2dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+                    <TextView
+                        android:id="@+id/tv_phone_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="5dp"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:text="@string/phone"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_normal_size" />
+
+                    <EditText
+                        android:id="@+id/et_phone_passenger"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="130dp"
+                        android:layout_marginRight="40dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_normal_size" />
+
+                    <ImageView
+                        android:id="@+id/iv_edit_phone"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/icon_edit_yellow"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:padding="2dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+                    <TextView
+                        android:id="@+id/tv_birth_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/birthday"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_normal_size" />
+
+                    <EditText
+                        android:id="@+id/et_birth_passenger"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="130dp"
+                        android:layout_marginRight="40dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_normal_size" />
+
+                    <ImageView
+                        android:id="@+id/iv_edit_birth"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/icon_edit_yellow"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:padding="2dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+                    <TextView
+                        android:id="@+id/tv_gender_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/gender"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_normal_size" />
+
+                    <EditText
+                        android:id="@+id/et_gender_passenger"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="130dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:textSize="@dimen/text_normal_size" />
+
+
+                    <Spinner
+                        android:id="@+id/spin_gender_passenger"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="130dp"
+                        android:background="@android:color/transparent"
+                        android:visibility="gone" />
+
+                    <ImageView
+                        android:id="@+id/iv_arrow_down"
+                        android:layout_width="@dimen/text_normal_size"
+                        android:layout_height="@dimen/text_normal_size"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignTop="@+id/spin_gender_passenger"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="16dp"
+                        android:background="@drawable/icon_arrow_down"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:padding="2dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentTop="true"
+                        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+                    <TextView
+                        android:id="@+id/tv_email_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="@string/email"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/text_normal_size" />
+
+                    <EditText
+                        android:id="@+id/et_email_passenger"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="130dp"
+                        android:layout_marginRight="40dp"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textSize="@dimen/text_normal_size" />
+
+                    <ImageView
+                        android:id="@+id/iv_edit_email"
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/icon_edit_yellow"
+                        android:visibility="gone" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btn_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/yellow_solid_box"
+                    android:text="@string/edit_profile"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white_dark" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/rl_top_banner"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:background="@color/colorPrimary">
+
+                <RelativeLayout
+                    android:id="@+id/rl_avatar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp">
+
+                    <com.example.prosoft.taxiloy.ui.view.CircleImageView
+                        android:id="@+id/iv_avatar"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/icon_logo" />
+
+                    <ImageView
+                        android:id="@+id/iv_plus_add"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/icon_plus_yellow"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+
+                <EditText
+                    android:id="@+id/tv_name_passenger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/rl_avatar"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@android:color/transparent"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_point_passenger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_name_passenger"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:textColor="@color/white_dark"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/iv_edit_name"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/rl_avatar"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/icon_edit_white"
+                    android:visibility="gone" />
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+            </RelativeLayout>
+        </RelativeLayout>
+            
+    </com.github.ksoichiro.android.observablescrollview.ObservableScrollView>
+
+
+</LinearLayout>

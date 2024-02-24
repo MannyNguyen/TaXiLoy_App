@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_dark"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_field_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+
+        <Spinner
+            android:id="@+id/spin_filter_taxi"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="5dp"
+            android:layout_below="@+id/tv_user_gender"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/black_border_box" />
+
+        <ImageView
+            android:layout_width="@dimen/text_normal_size"
+            android:layout_height="@dimen/text_normal_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/spin_filter_taxi"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/icon_arrow_down" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/swipe_refresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.example.prosoft.taxiloy.ui.view.CustomListView
+            android:id="@+id/list_inbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+</LinearLayout>

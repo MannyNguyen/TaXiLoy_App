@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="nation_name">
+        <item>Cam(+855)</item>
+        <item>Laos(+856)</item>
+        <item>Bru(+673)</item>
+        <item>Ind(+62)</item>
+        <item>Mal(+60)</item>
+        <item>Mya(+95)</item>
+        <item>Phi(+63)</item>
+        <item>Sin(+65)</item>
+        <item>Thai(+66)</item>
+        <item>Vie(+84)</item>
+    </string-array>
+
+    <string-array name="nation_code">
+        <item>+855</item>
+        <item>+856</item>
+        <item>+673</item>
+        <item>+62</item>
+        <item>+60</item>
+        <item>+95</item>
+        <item>+63</item>
+        <item>+65</item>
+        <item>+66</item>
+        <item>+84</item>
+    </string-array>
+</resources>

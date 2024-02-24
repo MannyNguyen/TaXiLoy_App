@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_dark"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/rl_field_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/phone_num" />
+
+        <EditText
+            android:id="@+id/et_field_phone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box"
+            android:inputType="number"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/tv_error_phone_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/error_fill_up"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/size_image_error"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_field_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/email" />
+
+        <EditText
+            android:id="@+id/et_field_email"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/tv_error_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/error_fill_up"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/size_image_error"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/rl_field_birth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/birthday" />
+
+        <EditText
+            android:id="@+id/et_field_birth"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box"
+            android:inputType="none"
+            android:paddingLeft="10dp" />
+
+        <TextView
+            android:id="@+id/tv_error_birth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="@string/error_fill_up"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/size_image_error"
+            android:visibility="invisible"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_field_gender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_user_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/user_gender" />
+
+        <Spinner
+            android:id="@+id/spin_user_gender"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_box"
+            android:layout_below="@+id/tv_user_gender"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box" />
+
+        <ImageView
+            android:id="@+id/iv_arrow_down"
+            android:layout_width="@dimen/text_normal_size"
+            android:layout_height="@dimen/text_normal_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/spin_user_gender"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="13dp"
+            android:background="@drawable/icon_arrow_down" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_field_license"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_user_license"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/license" />
+
+        <EditText
+            android:id="@+id/et_user_license"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_box"
+            android:layout_below="@+id/tv_user_license"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box" />
+
+        <TextView
+            android:id="@+id/tv_error_license"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_user_license"
+            android:layout_marginTop="2dp"
+            android:text="@string/error_capture_pic"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/size_image_error"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/iv_camera_license"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/et_user_license"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon_camera" />
+
+        <ImageView
+            android:id="@+id/iv_license_frond"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_error_license"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_license_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_error_license"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/iv_license_frond"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_field_id_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_user_id_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/id_card" />
+
+        <EditText
+            android:id="@+id/et_user_id_card"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_box"
+            android:layout_below="@+id/tv_user_id_card"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/black_border_box" />
+
+        <TextView
+            android:id="@+id/tv_error_card"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/et_user_id_card"
+            android:layout_marginTop="2dp"
+            android:text="@string/error_capture_pic"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/size_image_error"
+            android:visibility="invisible"/>
+
+        <ImageView
+            android:id="@+id/iv_camera_card"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/et_user_id_card"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/icon_camera" />
+
+        <ImageView
+            android:id="@+id/iv_id_card_frond"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_error_card"
+            android:layout_marginTop="10dp"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/iv_id_card_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_error_card"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/iv_id_card_frond"
+            android:scaleType="centerCrop"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/bt_next"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/yellow_solid_box"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/white_dark" />
+
+    <Button
+        android:id="@+id/bt_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/yellow_border_box"
+        android:text="@string/cancel"
+        android:textAllCaps="false"
+        android:textColor="@color/yellowDark" />
+</LinearLayout>

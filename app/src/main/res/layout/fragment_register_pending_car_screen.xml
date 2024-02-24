@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white_dark"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginTop="7dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0.5dp"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+        <TextView
+            android:id="@+id/tv_pending_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/brand"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal_size" />
+
+        <EditText
+            android:id="@+id/edt_pending_brand"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/iv_edit_brand"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_edit_yellow" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+        <TextView
+            android:id="@+id/tv_pending_model"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/model"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal_size" />
+
+        <EditText
+            android:id="@+id/edt_pending_model"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/iv_edit_model"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_edit_yellow" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="7dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+        <TextView
+            android:id="@+id/tv_pending_plate"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/plate_num"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal_size" />
+
+        <EditText
+            android:id="@+id/edt_pending_plate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/iv_edit_plate"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_edit_yellow" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/seats"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal_size" />
+
+        <EditText
+            android:id="@+id/edt_pending_seat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/iv_edit_seat"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_edit_yellow" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_pro"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+        <TextView
+            android:id="@+id/tv_pending_production"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/production_year"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal_size" />
+
+        <EditText
+            android:id="@+id/edt_pending_production"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="40dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+            android:textSize="15dp" />
+
+        <ImageView
+            android:id="@+id/iv_edit_production"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/icon_edit_yellow" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@+id/rl_top_banner"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_car_organization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/organization_individual" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tv_car_organization"
+
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_organization"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/organization" />
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_option_organization"
+                    android:layout_width="@dimen/height_text_box"
+                    android:layout_height="@dimen/height_text_box"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tv_organization"
+                    android:background="@drawable/icon_option_ticker">
+
+                    <ImageView
+                        android:id="@+id/iv_ticker_organization"
+                        android:layout_width="@dimen/height_text_box"
+                        android:layout_height="@dimen/height_text_box"
+                        android:background="@drawable/icon_ticker" />
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/tv_individual"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/individual" />
+
+                <RelativeLayout
+                    android:id="@+id/rl_option_individual"
+                    android:layout_width="@dimen/height_text_box"
+                    android:layout_height="@dimen/height_text_box"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/tv_individual"
+                    android:background="@drawable/icon_option_ticker">
+
+                    <ImageView
+                        android:id="@+id/iv_ticker_individual"
+                        android:layout_width="@dimen/height_text_box"
+                        android:layout_height="@dimen/height_text_box"
+                        android:background="@drawable/icon_ticker" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_transportation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/white">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentTop="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+        <TextView
+            android:id="@+id/tv_car_transportation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/transportation"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/text_normal_size" />
+
+        <TextView
+            android:id="@+id/edt_car_transportation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="130dp"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="@color/wallet_bright_foreground_disabled_holo_light"
+            android:textSize="15dp"
+            android:visibility="gone" />
+
+        <Spinner
+            android:id="@+id/spin_car_transportation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="130dp"
+            android:background="@android:color/transparent" />
+
+        <ImageView
+            android:id="@+id/iv_arrow_down"
+            android:layout_width="@dimen/text_normal_size"
+            android:layout_height="@dimen/text_normal_size"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/spin_gender_passenger"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/icon_arrow_down" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/wallet_bright_foreground_disabled_holo_light" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/ln_btn_driver_per"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_field_transportation"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:id="@+id/bt_next"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/yellow_solid_box"
+            android:text="@string/update"
+            android:textAllCaps="false"
+            android:textColor="@color/white_dark" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
